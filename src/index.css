@@ -8,16 +8,16 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Water Access Turkana Design System - Solid Colors Only */
+    /* Water Access Turkana Design System - Clean White Theme */
     
     /* Core Brand Colors */
     --background: 0 0% 100%;
     --foreground: 213 27% 15%;
     
-    /* Deep Water Blue - Primary */
-    --primary: 221 83% 40%;
+    /* Deep Water Blue - Primary (for links and accents) */
+    --primary: 217 91% 60%;
     --primary-foreground: 0 0% 100%;
-    --primary-light: 221 70% 55%;
+    --primary-light: 217 80% 70%;
     
     /* Warm Earth - Secondary */
     --secondary: 25 95% 53%;
@@ -29,7 +29,7 @@ All colors MUST be HSL.
     --accent-foreground: 0 0% 100%;
     
     /* Neutral Palette */
-    --muted: 214 32% 95%;
+    --muted: 214 20% 96%;
     --muted-foreground: 213 20% 45%;
     
     /* UI Elements */
@@ -39,9 +39,9 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 213 27% 15%;
     
-    --border: 214 25% 88%;
-    --input: 214 25% 88%;
-    --ring: 221 83% 40%;
+    --border: 214 20% 90%;
+    --input: 214 20% 90%;
+    --ring: 217 91% 60%;
     
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;

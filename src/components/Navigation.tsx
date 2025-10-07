@@ -15,12 +15,12 @@ const Navigation = () => {
   ];
 
   return (
-    <nav className="bg-primary text-primary-foreground sticky top-0 z-50 shadow-md">
+    <nav className="bg-background border-b border-border shadow-sm sticky top-0 z-50">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 font-bold text-xl">
-            <Droplet className="h-6 w-6" />
+          <Link to="/" className="flex items-center gap-2 font-bold text-xl text-foreground hover:text-primary transition-colors">
+            <Droplet className="h-6 w-6 text-primary" />
             <span className="hidden sm:inline">Water Access Turkana</span>
             <span className="sm:hidden">WAT</span>
           </Link>
@@ -31,8 +31,8 @@ const Navigation = () => {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`font-medium transition-colors hover:text-primary-foreground/80 ${
-                  isActive(link.path) ? 'border-b-2 border-primary-foreground' : ''
+                className={`font-medium transition-colors text-foreground hover:text-primary ${
+                  isActive(link.path) ? 'border-b-2 border-primary' : ''
                 }`}
               >
                 {link.label}
@@ -44,7 +44,7 @@ const Navigation = () => {
           <Button
             variant="ghost"
             size="icon"
-            className="md:hidden text-primary-foreground hover:bg-primary-light"
+            className="md:hidden text-foreground hover:bg-muted"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -53,13 +53,13 @@ const Navigation = () => {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden py-4 border-t border-primary-foreground/20">
+          <div className="md:hidden py-4 border-t border-border">
             {navLinks.map((link) => (
               <Link
                 key={link.path}
                 to={link.path}
-                className={`block py-2 font-medium transition-colors hover:text-primary-foreground/80 ${
-                  isActive(link.path) ? 'text-primary-foreground' : 'text-primary-foreground/80'
+                className={`block py-2 font-medium transition-colors text-foreground hover:text-primary ${
+                  isActive(link.path) ? 'text-primary' : ''
                 }`}
                 onClick={() => setIsOpen(false)}
               >

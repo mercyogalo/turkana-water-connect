@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import Chatbot from '@/components/Chatbot';
+import InteractiveMap from '@/components/InteractiveMap';
 import { waterSources, WaterSource } from '@/data/waterSources';
 import { Download, MapPin, Droplet, Circle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -147,18 +148,11 @@ const WaterSources = () => {
                 <div className="bg-card rounded-lg border border-border p-6">
                   <h2 className="text-2xl font-bold mb-6">Interactive Map</h2>
                   
-                  {/* Google Maps Embed with markers */}
-                  <div className="w-full h-[500px] lg:h-[600px] rounded-lg overflow-hidden shadow-lg">
-                    <iframe
-                      title="Water Sources Map"
-                      width="100%"
-                      height="100%"
-                      frameBorder="0"
-                      style={{ border: 0 }}
-                      src={`https://www.google.com/maps/embed/v1/view?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&center=2.5,35.5&zoom=8`}
-                      allowFullScreen
-                    />
-                  </div>
+                  <InteractiveMap
+                    waterSources={waterSources}
+                    selectedSource={selectedSource}
+                    onMarkerClick={setSelectedSource}
+                  />
 
                   {/* Selected Source Info */}
                   {selectedSource && (
