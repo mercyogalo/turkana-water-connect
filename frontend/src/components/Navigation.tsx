@@ -12,6 +12,7 @@ const Navigation = () => {
   const navLinks = [
     { path: '/', label: 'Home' },
     { path: '/water-sources', label: 'Water Sources' },
+    { path: '/contact', label: 'Contact' },
   ];
 
   return (
