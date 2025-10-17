@@ -9,10 +9,12 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Label } from '@/components/ui/label';
 import { Mail, Phone, MapPin } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
+import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -43,8 +45,8 @@ const Contact = () => {
 
       if (response.ok) {
         toast({
-          title: "Message sent!",
-          description: "We'll get back to you as soon as possible.",
+          title: t('contact.successTitle'),
+          description: t('contact.successDesc'),
         });
         setFormData({
           name: '',
@@ -58,8 +60,8 @@ const Contact = () => {
       }
     } catch (error) {
       toast({
-        title: "Error",
-        description: "Failed to send message. Please try again.",
+        title: t('contact.errorTitle'),
+        description: t('contact.errorDesc'),
         variant: "destructive",
       });
     } finally {
@@ -75,9 +77,9 @@ const Contact = () => {
         <section className="py-16 md:py-24 bg-muted">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center mb-12">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">Contact Us</h1>
+              <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('contact.title')}</h1>
               <p className="text-lg text-muted-foreground">
-                Have questions or want to help? We'd love to hear from you.
+                {t('contact.subtitle')}
               </p>
             </div>
 
@@ -87,7 +89,7 @@ const Contact = () => {
                   <div className="inline-flex items-center justify-center w-12 h-12 bg-primary text-primary-foreground rounded-full mx-auto mb-4">
                     <Mail className="h-6 w-6" />
                   </div>
-                  <CardTitle>Email</CardTitle>
+                  <CardTitle>{t('contact.email')}</CardTitle>
                 </CardHeader>
                 <CardContent className="text-center">
                   <p className="text-muted-foreground">info@wateraccessturkana.org</p>
@@ -99,7 +101,7 @@ const Contact = () => {
                   <div className="inline-flex items-center justify-center w-12 h-12 bg-primary text-primary-foreground rounded-full mx-auto mb-4">
                     <Phone className="h-6 w-6" />
                   </div>
-                  <CardTitle>Phone</CardTitle>
+                  <CardTitle>{t('contact.phone')}</CardTitle>
                 </CardHeader>
                 <CardContent className="text-center">
                   <p className="text-muted-foreground">+254 700 000 000</p>
@@ -111,37 +113,37 @@ const Contact = () => {
                   <div className="inline-flex items-center justify-center w-12 h-12 bg-primary text-primary-foreground rounded-full mx-auto mb-4">
                     <MapPin className="h-6 w-6" />
                   </div>
-                  <CardTitle>Location</CardTitle>
+                  <CardTitle>{t('contact.location')}</CardTitle>
                 </CardHeader>
                 <CardContent className="text-center">
-                  <p className="text-muted-foreground">Turkana County, Kenya</p>
+                  <p className="text-muted-foreground">{t('contact.locationValue')}</p>
                 </CardContent>
               </Card>
             </div>
 
             <Card className="max-w-2xl mx-auto">
               <CardHeader>
-                <CardTitle>Send Us a Message</CardTitle>
+                <CardTitle>{t('contact.formTitle')}</CardTitle>
                 <CardDescription>
-                  Fill out the form below and we'll get back to you within 24 hours.
+                  {t('contact.formDesc')}
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label htmlFor="name">Name *</Label>
+                      <Label htmlFor="name">{t('contact.name')} *</Label>
                       <Input
                         id="name"
                         name="name"
                         value={formData.name}
                         onChange={handleChange}
                         required
-                        placeholder="Your name"
+                        placeholder={t('contact.namePlaceholder')}
                       />
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="email">Email *</Label>
+                      <Label htmlFor="email">{t('contact.email')} *</Label>
                       <Input
                         id="email"
                         name="email"
@@ -149,51 +151,51 @@ const Contact = () => {
                         value={formData.email}
                         onChange={handleChange}
                         required
-                        placeholder="your.email@example.com"
+                        placeholder={t('contact.emailPlaceholder')}
                       />
                     </div>
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Label htmlFor="phone">Phone</Label>
+                      <Label htmlFor="phone">{t('contact.phone')}</Label>
                       <Input
                         id="phone"
                         name="phone"
                         type="tel"
                         value={formData.phone}
                         onChange={handleChange}
-                        placeholder="+254 700 000 000"
+                        placeholder={t('contact.phonePlaceholder')}
                       />
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="subject">Subject *</Label>
+                      <Label htmlFor="subject">{t('contact.subject')} *</Label>
                       <Input
                         id="subject"
                         name="subject"
                         value={formData.subject}
                         onChange={handleChange}
                         required
-                        placeholder="How can we help?"
+                        placeholder={t('contact.subjectPlaceholder')}
                       />
                     </div>
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="message">Message *</Label>
+                    <Label htmlFor="message">{t('contact.message')} *</Label>
                     <Textarea
                       id="message"
                       name="message"
                       value={formData.message}
                       onChange={handleChange}
                       required
-                      placeholder="Tell us more about your inquiry..."
+                      placeholder={t('contact.messagePlaceholder')}
                       rows={6}
                     />
                   </div>
 
                   <Button type="submit" className="w-full" disabled={isSubmitting}>
-                    {isSubmitting ? 'Sending...' : 'Send Message'}
+                    {isSubmitting ? t('contact.sending') : t('contact.sendButton')}
                   </Button>
                 </form>
               </CardContent>

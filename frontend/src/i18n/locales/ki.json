@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "home": "Mũciĩ",
+    "waterSources": "Ithanwa Cia Maaĩ",
+    "contact": "Tũmanĩrie"
+  },
+  "hero": {
+    "title": "Gũkinyĩra Maaĩ Matheru Kũrĩ Andũ a Turkana",
+    "subtitle": "Menyera ithanwa cia maaĩ irĩ hakuhĩ na ũteithie andũ anyu kũgaacĩra na ũhoro wa gũkinyĩra maaĩ matheru",
+    "findWaterButton": "Caria Ithanwa Cia Maaĩ"
+  },
+  "about": {
+    "missionTitle": "Wĩra Witũ",
+    "missionText1": "Water Access Turkana nĩ wĩra wa gwĩkĩra mapi na kũgayana ũhoro wa harĩa ithanwa cia maaĩ irĩ kũu Kaunti ya Turkana, Kenya. Nyũmba iitũ ĩteithagia andũ kũona ithanwa cia maaĩ matheru irĩ hakuhĩ mũno, nĩguo ũgĩa wa rũgendo ũhũthie na ũkinyĩro wa kĩndũ kĩrĩa kĩrĩ bata mũno ũingĩhe.",
+    "missionText2": "Tũrutaga wĩra ũrũ na andũ a gĩcagi nĩguo tũmenye ũhoro ũrĩa ũrĩ wa ma kũrĩa gũrĩa ũrĩa ũheaga andũ hinya wa gũkinyĩra maaĩ matheru wega.",
+    "locationTitle": "Mapi Ya Tũtũ",
+    "locationDesc": "Mapi marĩa monanagia harĩa ithanwa cia maaĩ irĩ kũu Turkana",
+    "communityTitle": "Gũteithio Kwa Andũ",
+    "communityDesc": "Gũteithia andũ ngiri nyingĩ kũona ithanwa cia maaĩ irĩa irĩ hakuhĩ na mĩciĩ yao",
+    "cleanWaterTitle": "Gũkinyĩra Maaĩ Matheru",
+    "cleanWaterDesc": "Kũheana ũhoro wa gũkinyĩra maaĩ marĩa magĩrĩru na matheru ma kũnyua na matũmĩro ma o mũthenya"
+  },
+  "challenges": {
+    "title": "Mathina Marĩa Tũtungataga",
+    "scarcityTitle": "Maaĩ Nĩ Manini",
+    "scarcityDesc": "Kaunti ya Turkana nĩ yarĩ na mathina manene ma ũkorwo wa maaĩ, hamwe na mbura nini na ithanwa cia maaĩ irĩa irĩ kũraya igatũma gũkinyĩra maaĩ o mũthenya kũgĩe na ũritũ.",
+    "travelTitle": "Rũgendo Rũraihu",
+    "travelDesc": "Andũ aingĩ no nginya mathiĩ kilomita nyingĩ nĩguo makinyĩre maaĩ, ũndũ ũcio ũkahũthia ihinda na hinya.",
+    "infoTitle": "Ũkorwo Wa Ũhoro Nĩ Mũnini",
+    "infoDesc": "Kwaga ũhoro ũrĩa ũngĩheanwo hamwe ũkoniĩ harĩa ithanwa cia maaĩ irĩ ũratũma kũgĩe na ũritũ kũrĩ andũ kũona maaĩ marĩa marĩ hakuhĩ mũno."
+  },
+  "impact": {
+    "title": "Ũrĩa Tũteithagia",
+    "travelTitle": "Kũhũthia Ihinda Rĩa Rũgendo",
+    "travelDesc": "Gũteithia andũ kũhonokia mathaa maingĩ o mũthenya nĩ ũndũ wa kũona ithanwa cia maaĩ irĩa irĩ hakuhĩ mũno",
+    "empowermentTitle": "Kũhe Andũ Hinya",
+    "empowermentDesc": "Kũhe ũhoro ũrĩa ũngĩkinyĩrwo ũrĩa ũheaga andũ hinya wa gwĩka mũtũire wa ũhoro",
+    "healthTitle": "Ũgima Mwega",
+    "healthDesc": "Gũkinyĩra maaĩ matheru wega nĩ gũteithagia ũgima na ũgaacĩru"
+  },
+  "map": {
+    "title": "Kĩrĩndĩ Kĩa Turkana",
+    "description": "Rora kĩrĩndĩ kĩa Turkana na ũmenyere harĩa ithanwa ciitũ cia maaĩ irĩ"
+  },
+  "cta": {
+    "title": "Nĩ Wehaarĩirie Kũona Ithanwa Cia Maaĩ?",
+    "description": "Rora mapi maitũ marĩa monanagia harĩa ithanwa cia maaĩ irĩ hakuhĩ nawe",
+    "button": "Rora Mapi Ma Ithanwa Cia Maaĩ"
+  },
+  "contact": {
+    "title": "Tũmanĩrie",
+    "subtitle": "Nĩ ũrĩ na ciũria kana ũkwenda gũteithia? Tũngĩenda gũcooka gũtĩĩgo.",
+    "email": "Marũa Ma Elektironiki",
+    "phone": "Thimu",
+    "location": "Handũ",
+    "locationValue": "Kaunti ya Turkana, Kenya",
+    "formTitle": "Tũtũmĩre Ũhoro",
+    "formDesc": "Iyũria fomu ĩrĩa ĩrĩ haha thĩ na tũgũcooke gũtĩĩgo thĩinĩ wa mathaa 24.",
+    "name": "Rĩĩtwa",
+    "namePlaceholder": "Rĩĩtwa rĩaku",
+    "emailPlaceholder": "marua.maku@mfano.com",
+    "phonePlaceholder": "+254 700 000 000",
+    "subject": "Mũndũ",
+    "subjectPlaceholder": "Tũngĩhota gũgũteithia atĩa?",
+    "message": "Ũhoro",
+    "messagePlaceholder": "Twĩre ũhoro ũngĩ ũkoniĩ kĩũria gĩaku...",
+    "sendButton": "Tũma Ũhoro",
+    "sending": "Nĩratũmaga...",
+    "successTitle": "Ũhoro nĩũtũmĩtwo!",
+    "successDesc": "Tũgũcooka gũtĩĩgo o rĩrĩa tũngĩhota.",
+    "errorTitle": "Mahĩtia",
+    "errorDesc": "Ndũngĩhotire gũtũma ũhoro. Tafadhali geria rĩngĩ."
+  },
+  "waterSources": {
+    "title": "Ithanwa Cia Maaĩ Kũu Turkana",
+    "subtitle": "Ona ithanwa cia maaĩ matheru irĩa irĩ hakuhĩ nawe",
+    "mapTitle": "Mapi Marĩa Monanagia",
+    "listTitle": "Mũtaratara Wa Ithanwa Cia Maaĩ",
+    "type": "Mũgunda",
+    "village": "Itũũra Rĩrĩa Rĩrĩ Hakuhĩ",
+    "condition": "Ũrĩa Irĩ",
+    "capacity": "Ũingĩ",
+    "lastUpdated": "Rĩa Kũrigĩrĩria Rĩa Kũhĩrĩria",
+    "getDirections": "Ona Mwĩrũ"
+  },
+  "footer": {
+    "description": "Gwĩkĩra mapi na kũgayana ũhoro wa harĩa ithanwa cia maaĩ irĩ kũu Kaunti ya Turkana nĩguo andũ makinyĩre maaĩ matheru wega.",
+    "quickLinks": "Tũnyiitano Twa Ihenya",
+    "followUs": "Tũrũmagĩrĩre",
+    "allRights": "Maũndũ mothe nĩ maigĩtwo."
+  },
+  "weather": {
+    "title": "Ũhoro Wa Rĩa",
+    "description": "Ũrĩa rĩa rĩrĩ rĩu kũu Kaunti ya Turkana",
+    "temp": "Ũrugarĩ",
+    "humidity": "Ũigũ",
+    "windSpeed": "Ihenya Rĩa Rũhuho"
+  }
+}

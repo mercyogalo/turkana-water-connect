@@ -2,17 +2,20 @@ import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Droplet } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { useTranslation } from 'react-i18next';
+import LanguageSelector from '@/components/LanguageSelector';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
+  const { t } = useTranslation();
 
   const isActive = (path: string) => location.pathname === path;
 
   const navLinks = [
-    { path: '/', label: 'Home' },
-    { path: '/water-sources', label: 'Water Sources' },
-    { path: '/contact', label: 'Contact' },
+    { path: '/', label: t('nav.home') },
+    { path: '/water-sources', label: t('nav.waterSources') },
+    { path: '/contact', label: t('nav.contact') },
   ];
 
   return (
@@ -39,6 +42,7 @@ const Navigation = () => {
                 {link.label}
               </Link>
             ))}
+            <LanguageSelector />
           </div>
 
           {/* Mobile Menu Button */}
@@ -67,6 +71,9 @@ const Navigation = () => {
                 {link.label}
               </Link>
             ))}
+            <div className="pt-2 border-t border-border mt-2">
+              <LanguageSelector />
+            </div>
           </div>
         )}
       </div>

@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "home": "Dala",
+    "waterSources": "Sokni Pi",
+    "contact": "Tudre"
+  },
+  "hero": {
+    "title": "Yudo Pi Maler ne Jok Turkana",
+    "subtitle": "Nong sokni pi machiegni kodi kendo ikonyi jou mondo odhi maber gi yudo pi maler",
+    "findWaterButton": "Manye Sokni Pi"
+  },
+  "about": {
+    "missionTitle": "Tichwa",
+    "missionText1": "Water Access Turkana ochiw tich mar loso map kod pogo kama sokni pi nitiere e Kaunti mar Turkana, Kenya. Jowa konyo jok mondo ginong sokni pi maler machiegni mogik, momiyo kinde mar wuoth odok manok kendo konyo mondo iyud pi mabeyo.",
+    "missionText2": "Wagoyo tich tir gi jok machiegni mondo mi paro ma kare kendo manyien momiyo jodalago teko mar yudo pi maler maber.",
+    "locationTitle": "Map mar Kuonde",
+    "locationDesc": "Maps ma inyalo goyo kod tich manenore kama sokni pi nitiere e Turkana",
+    "communityTitle": "Kony Jok",
+    "communityDesc": "Konyo jodalago gana alufu mondo ginong sokni pi machiegni gi utegi",
+    "cleanWaterTitle": "Yudo Pi Maler",
+    "cleanWaterDesc": "Jiwo yudo pi makare kendo maler ni madho kod tich pile ka pile"
+  },
+  "challenges": {
+    "title": "Chandruok Ma Watiyogo",
+    "scarcityTitle": "Pi Onge",
+    "scarcityDesc": "Kaunti mar Turkana nigi chandruok maduong mar pi onge, ka koth tin kendo sokni pi bor momiyo yudo pi pile ka pile bedo matek.",
+    "travelTitle": "Wuoth Mabor",
+    "travelDesc": "Jok mangeny nyaka wuoth kilometa mangeny mondo ginong pi, kendo mano tiyo gi kinde kod teko mabeyo.",
+    "infoTitle": "Odiemo Weche",
+    "infoDesc": "Onge weche moriwore kuom kama sokni pi nitiere ma kelo chandruok ne jok mondo ginong pi machiegni mogik."
+  },
+  "impact": {
+    "title": "Kaka Watimo",
+    "travelTitle": "Doko Kinde Mar Wuoth Manok",
+    "travelDesc": "Konyo jok mondo gigweth seche mangeny pile ka pile ka ginong sokni pi machiegni mogik",
+    "empowermentTitle": "Miyo Jok Teko",
+    "empowermentDesc": "Chiwo weche ma inyalo yudo momiyo jok teko mar kawo chandruok matimo weche",
+    "healthTitle": "Ngima Maber",
+    "healthDesc": "Yudo pi maler maber konyo medo ngima kod dak maber"
+  },
+  "map": {
+    "title": "Piny Turkana",
+    "description": "Nong piny Turkana kendo ine kama sokni pi wa nitiere"
+  },
+  "cta": {
+    "title": "Iseikori Mondo Inong Sokni Pi?",
+    "description": "Nong map wa ma inyalo goyo kod tich mondo inong sokni pi machiegni kodi",
+    "button": "Ne Map Mar Sokni Pi"
+  },
+  "contact": {
+    "title": "Tudre Kodwa",
+    "subtitle": "In kod penjo kata idwaro konyo? Dwabiro winjo iri.",
+    "email": "Barup Elektrik",
+    "phone": "Simo",
+    "location": "Kuma",
+    "locationValue": "Kaunti mar Turkana, Kenya",
+    "formTitle": "Orwane Ote",
+    "formDesc": "Pong gi form manie piny kendo wabiro dwoki e kinde mar saa 24.",
+    "name": "Nying",
+    "namePlaceholder": "Nyingi",
+    "emailPlaceholder": "barupi@kama.com",
+    "phonePlaceholder": "+254 700 000 000",
+    "subject": "Wach",
+    "subjectPlaceholder": "Wakonyi nade?",
+    "message": "Ote",
+    "messagePlaceholder": "Nyiswa mangeny kuom penjogi...",
+    "sendButton": "Or Ote",
+    "sending": "Oro...",
+    "successTitle": "Ote oseor!",
+    "successDesc": "Wabiro dwoki piyo ka inyalo.",
+    "errorTitle": "Rach",
+    "errorDesc": "Ok onyal oro ote. Tem kendo."
+  },
+  "waterSources": {
+    "title": "Sokni Pi e Turkana",
+    "subtitle": "Nong sokni pi maler machiegni kodi",
+    "mapTitle": "Map Ma Inyalo Goyo Kod Tich",
+    "listTitle": "List Mar Sokni Pi",
+    "type": "Kit",
+    "village": "Gweng Machiegni",
+    "condition": "Kaka Entie",
+    "capacity": "Kwan Monyalo Mako",
+    "lastUpdated": "Noloki Mogik",
+    "getDirections": "Yud Yo"
+  },
+  "footer": {
+    "description": "Loso map kod pogo kama sokni pi nitiere e Kaunti mar Turkana mondo jok oyud pi maler maber.",
+    "quickLinks": "Tudre Mapiyo",
+    "followUs": "Luwwa",
+    "allRights": "Twech duto ogeng."
+  },
+  "weather": {
+    "title": "Kaka Yamb Biro Bedo",
+    "description": "Kaka yamb nitie kawuono e Kaunti mar Turkana",
+    "temp": "Liet",
+    "humidity": "Kama Ngich",
+    "windSpeed": "Kaka Yamo Wuotho Matek"
+  }
+}

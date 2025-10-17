@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "home": "Akadae",
+    "waterSources": "Ngikibot ka Akipi",
+    "contact": "Kibarbar"
+  },
+  "hero": {
+    "title": "Alosit Akipi ka Alongakinei Ngitunga ka Turkana",
+    "subtitle": "Nyam ngikibot ka akipi ngesi ichepa kang ka ilosunoni ngitunga amu ki alongakinei ka akipi ka alongakinei",
+    "findWaterButton": "Nyam Ngikibot Ka Akipi"
+  },
+  "about": {
+    "missionTitle": "Akonoit Ngitoe",
+    "missionText1": "Water Access Turkana kipedunete akiles ka map bo ikibarbar ngikibot ka akipi kere Turkana County, Kenya. Ngitalio ngitoe kilosunori ngitunga anyam ngikibot ka akipi ka alongakinei ngesi ichepa ngataka, kilositie akiro ka akideun bo alongakinei akiles ka erai ngesi kipet moi.",
+    "missionText2": "Ejakino tua ka ngitunga ka akadae amu alongakinei ka tiliom ngesi tobongokini bo nyeni ngesi kipeduni ngimwok hinya ka alosit akipi ka alongakinei.",
+    "locationTitle": "Map Ka Ngikibot",
+    "locationDesc": "Map ngesi kibuch bo ngikibot kere tobong ngikibot ka akipi kere Turkana",
+    "communityTitle": "Alosunet Ngitunga",
+    "communityDesc": "Kilosunori ngimwok ngakiteng kitera ngikibot ka akipi ka alongakinei ichepa ka ngikej ngitoe",
+    "cleanWaterTitle": "Alosit Akipi Ka Alongakinei",
+    "cleanWaterDesc": "Alosit akipi ka alongakinei amu amat bo akitum ka lopolopoi"
+  },
+  "challenges": {
+    "title": "Ngikitabaran Ngesi Ejaki Tua",
+    "scarcityTitle": "Toma Ka Akipi",
+    "scarcityDesc": "Turkana County kiton ngikitabaran ngakwap ka toma ka akipi, ka akituk ka akimat ngadakina bo ngikibot ka akipi ngesi idaun ngakwap, kisosit alosit akipi ka lopolopoi moi.",
+    "travelTitle": "Akiro Alooi",
+    "travelDesc": "Ngitunga ngakwap kibucha anyam kilometa kitera amu alosit akipi, tobong akiro bo ngitalio ngesi kipet moi.",
+    "infoTitle": "Toma Ka Tiliom",
+    "infoDesc": "Toma ka tiliom ngesi achamakini ka ngikibot ka akipi kisosit ngitunga anyam ngikibot ka akipi ka alongakinei ngesi ichepa ngataka."
+  },
+  "impact": {
+    "title": "Ngikaitare Ngitoe",
+    "travelTitle": "Kitiritiae Akiro Ka Akideun",
+    "travelDesc": "Kilosunori ngitunga kijaki bore ka agieng ngabaran ka lopolopoi ka anyam ngikibot ka akipi ka alongakinei ngesi ichepa ngataka",
+    "empowermentTitle": "Alosunet Ngitunga Ka Hinya",
+    "empowermentDesc": "Kiperisa tiliom ngesi kibuchete ngesi kiperori ngitunga hinya ka akiles ka ichamakini ngesi tobong tiliom",
+    "healthTitle": "Alongakinei Ka Ekokwa",
+    "healthDesc": "Alosit akipi ka alongakinei moi kilosunori alongakinei ka ekokwa bo adekwan alongakinei"
+  },
+  "map": {
+    "title": "Eturkan Ka Turkana",
+    "description": "Roran eturkan ka Turkana bo inyam ngikile ka ngikibot ka akipi ngitoe"
+  },
+  "cta": {
+    "title": "Kiper Inyam Ngikibot Ka Akipi?",
+    "description": "Roran map ngitoe ngesi kibuch amu inyam ngikibot ka akipi ichepa kangino",
+    "button": "Roran Map Ka Ngikibot Ka Akipi"
+  },
+  "contact": {
+    "title": "Kibarbar Lo Tua",
+    "subtitle": "Kikon ngikitabor atau kibuch kilosunet tua? Ewoto tulosi kang.",
+    "email": "Email",
+    "phone": "Esim",
+    "location": "Akibot",
+    "locationValue": "Turkana County, Kenya",
+    "formTitle": "Kiperisae Kibarbar",
+    "formDesc": "Loku form ngesi eong lou bo tolosi kang ka akiro ka agieng 24.",
+    "name": "Ekile",
+    "namePlaceholder": "Ekile ngakan",
+    "emailPlaceholder": "email.ngakan@mfano.com",
+    "phonePlaceholder": "+254 700 000 000",
+    "subject": "Ngakitabaran",
+    "subjectPlaceholder": "Ejaki tua kilosunakin?",
+    "message": "Kibarbar",
+    "messagePlaceholder": "Ituitae tiliom ngakwap ka ngikitabor ngakan...",
+    "sendButton": "Peris Kibarbar",
+    "sending": "Kiperis...",
+    "successTitle": "Kibarbar kiperes!",
+    "successDesc": "Tolosi kang ka akiro ngesi kibuchikini.",
+    "errorTitle": "Ekoto",
+    "errorDesc": "Mam kibucha kiperis kibarbar. Tukitae kidi."
+  },
+  "waterSources": {
+    "title": "Ngikibot Ka Akipi Kere Turkana",
+    "subtitle": "Nyam ngikibot ka akipi ka alongakinei ichepa kangino",
+    "mapTitle": "Map Ngesi Kibuch",
+    "listTitle": "Ikilas Ka Ngikibot Ka Akipi",
+    "type": "Emeri",
+    "village": "Ekal Ngesi Ichepa",
+    "condition": "Ngakinei",
+    "capacity": "Ngakwapoi",
+    "lastUpdated": "Iyenete Ka Ngolo",
+    "getDirections": "Losia Akiro"
+  },
+  "footer": {
+    "description": "Akiles ka map bo ikibarbar ngikibot ka akipi kere Turkana County amu alongakinei alosit ngitunga ka akipi ka alongakinei.",
+    "quickLinks": "Ngikitue Ka Akiro Alosi",
+    "followUs": "Tolonia Tua",
+    "allRights": "Ngimorikou ngabaran egeng."
+  },
+  "weather": {
+    "title": "Tiliom Ka Ririt",
+    "description": "Ririt ngesi kiton olong kere Turkana County",
+    "temp": "Emoroto",
+    "humidity": "Alomorut",
+    "windSpeed": "Akiro Ka Ngalalio"
+  }
+}

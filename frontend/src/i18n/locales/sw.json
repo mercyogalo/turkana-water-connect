@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "home": "Nyumbani",
+    "waterSources": "Vyanzo vya Maji",
+    "contact": "Wasiliana"
+  },
+  "hero": {
+    "title": "Ufikiaji wa Maji Safi kwa Jamii za Turkana",
+    "subtitle": "Gundua vyanzo vya maji vilivyo karibu na usaidie jamii yako kustawi kwa ufikiaji wa kuaminika wa maji safi",
+    "findWaterButton": "Tafuta Vyanzo vya Maji"
+  },
+  "about": {
+    "missionTitle": "Dhamira Yetu",
+    "missionText1": "Water Access Turkana imejitolea kutengeneza ramani na kushiriki maeneo ya vyanzo vya maji katika Kaunti ya Turkana, Kenya. Jukwaa letu linasaidia jamii kupata vyanzo vya maji safi vilivyo karibu zaidi, kupunguza muda wa kusafiri na kuboresha ufikiaji wa rasilimali hii muhimu.",
+    "missionText2": "Tunafanya kazi moja kwa moja na jamii za mitaa ili kuhakikisha taarifa sahihi na za hivi karibuni zinazowapa nguvu familia kupata maji safi kwa ufanisi.",
+    "locationTitle": "Ramani ya Maeneo",
+    "locationDesc": "Ramani za kuingiliana zinazoonyesha maeneo halisi ya vyanzo vya maji katika Turkana",
+    "communityTitle": "Msaada wa Jamii",
+    "communityDesc": "Kusaidia maelfu ya familia kupata vyanzo vya maji vinavyotegemewa karibu na nyumba zao",
+    "cleanWaterTitle": "Ufikiaji wa Maji Safi",
+    "cleanWaterDesc": "Kukuza ufikiaji wa maji salama na safi kwa kunywa na matumizi ya kila siku"
+  },
+  "challenges": {
+    "title": "Changamoto Tunazoshughulikia",
+    "scarcityTitle": "Uhaba wa Maji",
+    "scarcityDesc": "Kaunti ya Turkana inakabiliwa na changamoto kubwa za uhaba wa maji, pamoja na mvua kidogo na vyanzo vya maji vilivyo mbali vinavyofanya ufikiaji wa maji wa kila siku kuwa mgumu.",
+    "travelTitle": "Umbali Mrefu wa Kusafiri",
+    "travelDesc": "Jamii nyingi lazima zisafiri kilomita kadhaa kupata maji, ikitumia muda na nishati muhimu.",
+    "infoTitle": "Pengo la Taarifa",
+    "infoDesc": "Ukosefu wa taarifa zilizounganishwa kuhusu maeneo ya vyanzo vya maji unafanya iwe ngumu kwa jamii kupata maji yaliyo karibu zaidi."
+  },
+  "impact": {
+    "title": "Athari Yetu",
+    "travelTitle": "Kupunguza Muda wa Kusafiri",
+    "travelDesc": "Kusaidia jamii kuokoa masaa kila siku kwa kupata vyanzo vya maji vilivyo karibu zaidi",
+    "empowermentTitle": "Uwezeshaji wa Jamii",
+    "empowermentDesc": "Kutoa taarifa zinazofikiwa ambazo zinawapa nguvu jamii kufanya maamuzi ya habari",
+    "healthTitle": "Afya Iliyoboreshwa",
+    "healthDesc": "Ufikiaji bora wa maji safi unachangia afya na ustawi ulioboreshwa"
+  },
+  "map": {
+    "title": "Mkoa wa Turkana",
+    "description": "Chunguza mkoa wa Turkana na gundua mahali vyanzo vyetu vya maji vilivyopo"
+  },
+  "cta": {
+    "title": "Uko Tayari Kupata Vyanzo vya Maji?",
+    "description": "Chunguza ramani yetu ya kuingiliana ili kupata vyanzo vya maji karibu nawe",
+    "button": "Angalia Ramani ya Vyanzo vya Maji"
+  },
+  "contact": {
+    "title": "Wasiliana Nasi",
+    "subtitle": "Una maswali au unataka kusaidia? Tungependa kusikia kutoka kwako.",
+    "email": "Barua Pepe",
+    "phone": "Simu",
+    "location": "Mahali",
+    "locationValue": "Kaunti ya Turkana, Kenya",
+    "formTitle": "Tutumie Ujumbe",
+    "formDesc": "Jaza fomu hapa chini na tutawasiliana nawe ndani ya masaa 24.",
+    "name": "Jina",
+    "namePlaceholder": "Jina lako",
+    "emailPlaceholder": "barua.pepe@mfano.com",
+    "phonePlaceholder": "+254 700 000 000",
+    "subject": "Mada",
+    "subjectPlaceholder": "Tunaweza kukusaidiaje?",
+    "message": "Ujumbe",
+    "messagePlaceholder": "Tuambie zaidi kuhusu swali lako...",
+    "sendButton": "Tuma Ujumbe",
+    "sending": "Inatuma...",
+    "successTitle": "Ujumbe umetumwa!",
+    "successDesc": "Tutawasiliana nawe haraka iwezekanavyo.",
+    "errorTitle": "Hitilafu",
+    "errorDesc": "Imeshindwa kutuma ujumbe. Tafadhali jaribu tena."
+  },
+  "waterSources": {
+    "title": "Vyanzo vya Maji katika Turkana",
+    "subtitle": "Pata vyanzo vya maji safi karibu nawe",
+    "mapTitle": "Ramani ya Kuingiliana",
+    "listTitle": "Orodha ya Vyanzo vya Maji",
+    "type": "Aina",
+    "village": "Kijiji cha Karibu",
+    "condition": "Hali",
+    "capacity": "Uwezo",
+    "lastUpdated": "Imesasishwa Mwisho",
+    "getDirections": "Pata Mwelekeo"
+  },
+  "footer": {
+    "description": "Kutengeneza ramani na kushiriki maeneo ya vyanzo vya maji katika Kaunti ya Turkana ili kuboresha ufikiaji wa jamii kwa maji safi.",
+    "quickLinks": "Viungo vya Haraka",
+    "followUs": "Tufuate",
+    "allRights": "Haki zote zimehifadhiwa."
+  },
+  "weather": {
+    "title": "Utabiri wa Hali ya Hewa",
+    "description": "Hali ya hewa ya sasa katika Kaunti ya Turkana",
+    "temp": "Joto",
+    "humidity": "Unyevu",
+    "windSpeed": "Kasi ya Upepo"
+  }
+}

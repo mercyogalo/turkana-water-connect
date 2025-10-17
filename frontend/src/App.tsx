@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import WaterSources from "./pages/WaterSources";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import './i18n/config';
 
 const queryClient = new QueryClient();
 

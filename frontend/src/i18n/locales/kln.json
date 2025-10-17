@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "home": "Kamuktaindet",
+    "waterSources": "Tukuk Che Peek",
+    "contact": "Koitoi"
+  },
+  "hero": {
+    "title": "Keemwai Peek Ne Tisap Ag Biik Che Turkana",
+    "subtitle": "Nyolu tukuk che peek che kotagei ak ikoite biik choton komoche mising ak keemwai peek ne tisap",
+    "findWaterButton": "Nyolu Tukuk Che Peek"
+  },
+  "about": {
+    "missionTitle": "Tukul Ngotutik",
+    "missionText1": "Water Access Turkana kesirei kolakoton map ak kosigiton tukuk che peek ne kotagei Turkana County, Kenya. Kot ngotutik komoche biik anyolu tukuk che peek ne tisap che kotagei mising, kotinei oret ne kutyet ak kolakoton keemwai peek ne koboitiet mising.",
+    "missionText2": "Kolak koret ak biik che kotagei komoche koboi tukul ne ngotutik ak ne ngokiikei che kesirei biik imutiot komoche anyolu peek ne tisap.",
+    "locationTitle": "Map Ak Tukuk",
+    "locationDesc": "Map che keyoe che lachton tukuk che peek ne kotagei Turkana",
+    "communityTitle": "Koitoi Biik",
+    "communityDesc": "Komoche biik kitokeech anyolu tukuk che peek che koitiet kotagei kaptich",
+    "cleanWaterTitle": "Keemwai Peek Ne Tisap",
+    "cleanWaterDesc": "Kolakoton keemwai peek ne tisap ak ne koitiet komwa ak kolakiton tapkogik"
+  },
+  "challenges": {
+    "title": "Titogik Che Kokolakton",
+    "scarcityTitle": "Matoondet Peek",
+    "scarcityDesc": "Turkana County koleei titogik ngotutik ak matoondet peek, ak rooptik che matinei ak tukuk che peek che kotagei kole, kotingei keemwai peek tapkogik koitiet.",
+    "travelTitle": "Kutyet Ne Kole",
+    "travelDesc": "Biik keyoe koleei kokwen kilometa keyoe komoche anyolu peek, kobo oret ak imutiot ne boitiet.",
+    "infoTitle": "Matoondet Tukul",
+    "infoDesc": "Matoondet tukul ne ngotutik ak tukuk che peek kotingei biik anyolu peek ne kotagei mising."
+  },
+  "impact": {
+    "title": "Koitoi Ngotutik",
+    "travelTitle": "Kotinei Oret Ne Kutyet",
+    "travelDesc": "Komoche biik koboi agenge ne keyoe tapkogik kokolakton anyolu tukuk che peek che kotagei mising",
+    "empowermentTitle": "Kosirei Biik Imutiot",
+    "empowermentDesc": "Kosigiton tukul ne keyoe kemwai che kesirei biik imutiot kolakton titogik ne ngotutik",
+    "healthTitle": "Rirondet Ne Lakoton",
+    "healthDesc": "Keemwai peek ne tisap komoche rirondet ak kasit ne lakoton"
+  },
+  "map": {
+    "title": "Kipsigis Ne Turkana",
+    "description": "Roru kipsigis ne Turkana ak inyolu tukondet che tukuk ngotutik che peek"
+  },
+  "cta": {
+    "title": "Kile Nyolu Tukuk Che Peek?",
+    "description": "Roru map ngotutik ne keyoe kolakton anyolu tukuk che peek che kotagei koingei",
+    "button": "Nyolu Map Ak Tukuk Che Peek"
+  },
+  "contact": {
+    "title": "Koitoi Ngotutik",
+    "subtitle": "Kikon titogik nebo kibore koitoi? Kochach ketinyei koing.",
+    "email": "Email",
+    "phone": "Simu",
+    "location": "Tukondet",
+    "locationValue": "Turkana County, Kenya",
+    "formTitle": "Kisorchi Oret",
+    "formDesc": "Sukune form ne kotagei lou ak kodoini koing oret agenge 24.",
+    "name": "Koitie",
+    "namePlaceholder": "Koitie ngon",
+    "emailPlaceholder": "email.ngon@mfano.com",
+    "phonePlaceholder": "+254 700 000 000",
+    "subject": "Nebo",
+    "subjectPlaceholder": "Komoche koitoi?",
+    "message": "Oret",
+    "messagePlaceholder": "Koitoi keyoe ak titogik ngon...",
+    "sendButton": "Kisorchi Oret",
+    "sending": "Kosorchi...",
+    "successTitle": "Oret kisorchi!",
+    "successDesc": "Kodoini koing oret kokolak.",
+    "errorTitle": "Maun",
+    "errorDesc": "Makile kosorchi oret. Tukitae kidi."
+  },
+  "waterSources": {
+    "title": "Tukuk Che Peek Ne Kotagei Turkana",
+    "subtitle": "Nyolu tukuk che peek ne tisap che kotagei koingei",
+    "mapTitle": "Map Ne Keyoe Kolakton",
+    "listTitle": "Oret Ak Tukuk Che Peek",
+    "type": "Kit",
+    "village": "Konoissek Ne Kotagei",
+    "condition": "Tugul",
+    "capacity": "Keyoe",
+    "lastUpdated": "Kilakei Ne Ngokiikei",
+    "getDirections": "Losia Kutyet"
+  },
+  "footer": {
+    "description": "Kolakoton map ak kosigiton tukuk che peek ne kotagei Turkana County komoche biik komoche keemwai peek ne tisap.",
+    "quickLinks": "Koitoi Ne Koret",
+    "followUs": "Koloitoi Ngotutik",
+    "allRights": "Tugul boitionik kogeng."
+  },
+  "weather": {
+    "title": "Tukul Ak Kipsigis",
+    "description": "Tugul ak kipsigis ne kotagei Turkana County nguni",
+    "temp": "Kamet",
+    "humidity": "Kolup",
+    "windSpeed": "Komong Ak Muriut"
+  }
+}

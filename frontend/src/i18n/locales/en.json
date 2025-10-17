@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "home": "Home",
+    "waterSources": "Water Sources",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Access to Clean Water for Turkana Communities",
+    "subtitle": "Discover nearby water sources and help your community thrive with reliable access to clean water",
+    "findWaterButton": "Find Water Sources"
+  },
+  "about": {
+    "missionTitle": "Our Mission",
+    "missionText1": "Water Access Turkana is dedicated to mapping and sharing the locations of water sources across Turkana County, Kenya. Our platform helps communities find the nearest clean water sources, reducing travel time and improving access to this vital resource.",
+    "missionText2": "We work directly with local communities to ensure accurate, up-to-date information that empowers families to access clean water efficiently.",
+    "locationTitle": "Location Mapping",
+    "locationDesc": "Interactive maps showing exact locations of water sources across Turkana",
+    "communityTitle": "Community Support",
+    "communityDesc": "Helping thousands of families find reliable water sources near their homes",
+    "cleanWaterTitle": "Clean Water Access",
+    "cleanWaterDesc": "Promoting access to safe, clean water for drinking and daily use"
+  },
+  "challenges": {
+    "title": "Challenges We Address",
+    "scarcityTitle": "Water Scarcity",
+    "scarcityDesc": "Turkana County faces significant water scarcity challenges, with limited rainfall and distant water sources making daily water access difficult.",
+    "travelTitle": "Long Travel Distances",
+    "travelDesc": "Many communities must travel several kilometers to access water, consuming valuable time and energy.",
+    "infoTitle": "Information Gap",
+    "infoDesc": "Lack of centralized information about water source locations makes it harder for communities to find the nearest available water."
+  },
+  "impact": {
+    "title": "Our Impact",
+    "travelTitle": "Reduced Travel Time",
+    "travelDesc": "Helping communities save hours each day by finding the nearest water sources",
+    "empowermentTitle": "Community Empowerment",
+    "empowermentDesc": "Providing accessible information that empowers communities to make informed decisions",
+    "healthTitle": "Improved Health",
+    "healthDesc": "Better access to clean water contributes to improved health and well-being"
+  },
+  "map": {
+    "title": "Turkana Region",
+    "description": "Explore the Turkana region and discover where our water sources are located"
+  },
+  "cta": {
+    "title": "Ready to Find Water Sources?",
+    "description": "Explore our interactive map to locate water sources near you",
+    "button": "View Water Sources Map"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Have questions or want to help? We'd love to hear from you.",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "locationValue": "Turkana County, Kenya",
+    "formTitle": "Send Us a Message",
+    "formDesc": "Fill out the form below and we'll get back to you within 24 hours.",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "your.email@example.com",
+    "phonePlaceholder": "+254 700 000 000",
+    "subject": "Subject",
+    "subjectPlaceholder": "How can we help?",
+    "message": "Message",
+    "messagePlaceholder": "Tell us more about your inquiry...",
+    "sendButton": "Send Message",
+    "sending": "Sending...",
+    "successTitle": "Message sent!",
+    "successDesc": "We'll get back to you as soon as possible.",
+    "errorTitle": "Error",
+    "errorDesc": "Failed to send message. Please try again."
+  },
+  "waterSources": {
+    "title": "Water Sources in Turkana",
+    "subtitle": "Find clean water sources near you",
+    "mapTitle": "Interactive Map",
+    "listTitle": "Water Source List",
+    "type": "Type",
+    "village": "Nearest Village",
+    "condition": "Condition",
+    "capacity": "Capacity",
+    "lastUpdated": "Last Updated",
+    "getDirections": "Get Directions"
+  },
+  "footer": {
+    "description": "Mapping and sharing water source locations across Turkana County to improve community access to clean water.",
+    "quickLinks": "Quick Links",
+    "followUs": "Follow Us",
+    "allRights": "All rights reserved."
+  },
+  "weather": {
+    "title": "Weather Forecast",
+    "description": "Current weather conditions in Turkana County",
+    "temp": "Temperature",
+    "humidity": "Humidity",
+    "windSpeed": "Wind Speed"
+  }
+}
