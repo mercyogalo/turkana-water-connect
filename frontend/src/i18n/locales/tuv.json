@@ -2,7 +2,9 @@
   "nav": {
     "home": "Akadae",
     "waterSources": "Ngikibot ka Akipi",
-    "contact": "Kibarbar"
+    "contact": "Kibarbar",
+    "weatherPredictions": "Tiliom Ka Ririt",
+    "donate": "Aperis"
   },
   "hero": {
     "title": "Alosit Akipi ka Alongakinei Ngitunga ka Turkana",
@@ -90,10 +92,106 @@
     "allRights": "Ngimorikou ngabaran egeng."
   },
   "weather": {
-    "title": "Tiliom Ka Ririt",
-    "description": "Ririt ngesi kiton olong kere Turkana County",
-    "temp": "Emoroto",
-    "humidity": "Alomorut",
-    "windSpeed": "Akiro Ka Ngalalio"
+    "title": "Weather Forecast",
+    "description": "Current weather conditions in Turkana County",
+    "temp": "Temperature",
+    "humidity": "Humidity",
+    "windSpeed": "Wind Speed",
+    "predictionsTitle": "Weather Predictions for Turkana",
+    "predictionsSubtitle": "Understanding seasonal patterns to prepare for droughts and floods",
+    "rainfall": "Rainfall",
+    "temperature": "Temperature",
+    "rainfallMm": "Rainfall (mm)",
+    "tempC": "Temperature (°C)",
+    "avgRainfall": "Average Rainfall",
+    "importantNote": "Important Information",
+    "importantNoteDesc": "Turkana County experiences extreme weather patterns. Understanding these patterns helps communities prepare for water shortages during dry seasons and potential flooding during rainy seasons.",
+    "currentMonth": "Current Month",
+    "currentSeasonPrediction": "Current season prediction and conditions",
+    "season": "Season",
+    "condition": "Condition",
+    "primaryRisk": "Primary Risk",
+    "expectedRainfall": "Expected Rainfall This Month",
+    "annualPatterns": "Annual Weather Patterns",
+    "annualPatternsDesc": "Rainfall and temperature trends throughout the year",
+    "monthlyRainfall": "Monthly Rainfall Distribution",
+    "monthlyRainfallDesc": "Average monthly rainfall showing wet and dry seasons",
+    "months": {
+      "jan": "January",
+      "feb": "February",
+      "mar": "March",
+      "apr": "April",
+      "may": "May",
+      "jun": "June",
+      "jul": "July",
+      "aug": "August",
+      "sep": "September",
+      "oct": "October",
+      "nov": "November",
+      "dec": "December"
+    },
+    "seasons": {
+      "longRains": "Long Rains Season",
+      "shortRains": "Short Rains Season",
+      "drySeason": "Dry Season"
+    },
+    "conditions": {
+      "wetSeason": "Wet season with increased rainfall",
+      "moderateRain": "Moderate rainfall expected",
+      "littleRain": "Very little to no rainfall"
+    },
+    "risks": {
+      "flooding": "Flooding & Water Overflow",
+      "moderate": "Moderate conditions",
+      "drought": "Drought & Water Scarcity"
+    },
+    "levels": {
+      "veryLow": "Very Low",
+      "low": "Low",
+      "moderate": "Moderate",
+      "high": "High"
+    },
+    "legend": {
+      "veryLow": "Very Low (<30mm)",
+      "low": "Low (30-60mm)",
+      "moderate": "Moderate (60-90mm)",
+      "high": "High (>90mm)"
+    },
+    "impactCards": {
+      "waterShortage": "Water Shortage",
+      "waterShortageDesc": "Prolonged dry periods lead to severe water scarcity, requiring communities to travel longer distances for water access.",
+      "foodInsecurity": "Food Insecurity",
+      "foodInsecurityDesc": "Drought conditions affect livestock and crops, leading to food shortages and the need for emergency aid.",
+      "floodRisk": "Flood Risk",
+      "floodRiskDesc": "Heavy rains during wet seasons can cause flooding, damaging infrastructure and contaminating water sources."
+    }
+  },
+  "donate": {
+    "title": "Support Turkana Communities",
+    "subtitle": "Your donation helps provide food, water, and emergency aid to drought-affected families in Turkana County.",
+    "waterTitle": "Clean Water",
+    "waterDesc": "Provide access to clean water sources and water purification systems",
+    "foodTitle": "Food Support",
+    "foodDesc": "Supply emergency food aid to families facing drought-related food insecurity",
+    "emergencyTitle": "Emergency Aid",
+    "emergencyDesc": "Deliver urgent assistance during floods and extreme weather events",
+    "formTitle": "Make a Donation",
+    "formDesc": "All donations go directly to support Turkana families in need. Secure payment via Paystack.",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Enter your full name",
+    "email": "Email Address",
+    "emailPlaceholder": "your.email@example.com",
+    "amount": "Donation Amount (KES)",
+    "amountNote": "Minimum donation: KES 10",
+    "message": "Message (Optional)",
+    "messagePlaceholder": "Add a message of support...",
+    "donateButton": "Donate Now",
+    "processing": "Processing...",
+    "secureNote": "Secure payment powered by Paystack",
+    "successTitle": "Thank you for your donation!",
+    "successDesc": "Your contribution will help Turkana families in need.",
+    "errorTitle": "Donation Failed",
+    "errorRequired": "Please fill in all required fields.",
+    "errorMinAmount": "Minimum donation amount is KES 10."
   }
 }

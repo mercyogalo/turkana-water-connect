@@ -2,6 +2,8 @@
   "nav": {
     "home": "Nyumbani",
     "waterSources": "Vyanzo vya Maji",
+    "weatherPredictions": "Utabiri wa Hali ya Hewa",
+    "donate": "Changia",
     "contact": "Wasiliana"
   },
   "hero": {
@@ -94,6 +96,102 @@
     "description": "Hali ya hewa ya sasa katika Kaunti ya Turkana",
     "temp": "Joto",
     "humidity": "Unyevu",
-    "windSpeed": "Kasi ya Upepo"
+    "windSpeed": "Kasi ya Upepo",
+    "predictionsTitle": "Utabiri wa Hali ya Hewa kwa Turkana",
+    "predictionsSubtitle": "Kuelewa mifumo ya majira ili kujiandaa kwa ukame na mafuriko",
+    "rainfall": "Mvua",
+    "temperature": "Joto",
+    "rainfallMm": "Mvua (mm)",
+    "tempC": "Joto (°C)",
+    "avgRainfall": "Wastani wa Mvua",
+    "importantNote": "Taarifa Muhimu",
+    "importantNoteDesc": "Kaunti ya Turkana inapitia mifumo mikali ya hali ya hewa. Kuelewa mifumo hii inasaidia jamii kujiandaa kwa uhaba wa maji wakati wa majira ya ukame na mafuriko yanayoweza kutokea wakati wa majira ya mvua.",
+    "currentMonth": "Mwezi wa Sasa",
+    "currentSeasonPrediction": "Utabiri wa majira ya sasa na hali",
+    "season": "Majira",
+    "condition": "Hali",
+    "primaryRisk": "Hatari Kuu",
+    "expectedRainfall": "Mvua Inayotarajiwa Mwezi Huu",
+    "annualPatterns": "Mifumo ya Hali ya Hewa ya Mwaka",
+    "annualPatternsDesc": "Mwenendo wa mvua na joto kote mwaka",
+    "monthlyRainfall": "Usambazaji wa Mvua ya Kila Mwezi",
+    "monthlyRainfallDesc": "Wastani wa mvua ya kila mwezi inayoonyesha majira ya mvua na ukame",
+    "months": {
+      "jan": "Januari",
+      "feb": "Februari",
+      "mar": "Machi",
+      "apr": "Aprili",
+      "may": "Mei",
+      "jun": "Juni",
+      "jul": "Julai",
+      "aug": "Agosti",
+      "sep": "Septemba",
+      "oct": "Oktoba",
+      "nov": "Novemba",
+      "dec": "Desemba"
+    },
+    "seasons": {
+      "longRains": "Majira ya Mvua Ndefu",
+      "shortRains": "Majira ya Mvua Fupi",
+      "drySeason": "Majira ya Ukame"
+    },
+    "conditions": {
+      "wetSeason": "Majira ya mvua na mvua nyingi",
+      "moderateRain": "Mvua ya wastani inatarajiwa",
+      "littleRain": "Mvua kidogo sana au hakuna kabisa"
+    },
+    "risks": {
+      "flooding": "Mafuriko na Maji Kupita Kiasi",
+      "moderate": "Hali ya wastani",
+      "drought": "Ukame na Uhaba wa Maji"
+    },
+    "levels": {
+      "veryLow": "Chini Sana",
+      "low": "Chini",
+      "moderate": "Wastani",
+      "high": "Juu"
+    },
+    "legend": {
+      "veryLow": "Chini Sana (<30mm)",
+      "low": "Chini (30-60mm)",
+      "moderate": "Wastani (60-90mm)",
+      "high": "Juu (>90mm)"
+    },
+    "impactCards": {
+      "waterShortage": "Uhaba wa Maji",
+      "waterShortageDesc": "Majira marefu ya ukame husababisha uhaba mkubwa wa maji, ikihitaji jamii kusafiri umbali mrefu kupata maji.",
+      "foodInsecurity": "Uhaba wa Chakula",
+      "foodInsecurityDesc": "Hali ya ukame inaathiri mifugo na mazao, ikisababisha uhaba wa chakula na haja ya msaada wa dharura.",
+      "floodRisk": "Hatari ya Mafuriko",
+      "floodRiskDesc": "Mvua kubwa wakati wa majira ya mvua inaweza kusababisha mafuriko, ikiharibu miundombinu na kuchafua vyanzo vya maji."
+    }
+  },
+  "donate": {
+    "title": "Saidia Jamii za Turkana",
+    "subtitle": "Mchango wako unasaidia kutoa chakula, maji, na msaada wa dharura kwa familia zilizoathiriwa na ukame katika Kaunti ya Turkana.",
+    "waterTitle": "Maji Safi",
+    "waterDesc": "Kutoa ufikiaji wa vyanzo vya maji safi na mifumo ya kusafisha maji",
+    "foodTitle": "Msaada wa Chakula",
+    "foodDesc": "Kutoa msaada wa chakula wa dharura kwa familia zinazokabiliwa na uhaba wa chakula unaohusiana na ukame",
+    "emergencyTitle": "Msaada wa Dharura",
+    "emergencyDesc": "Kutoa msaada wa haraka wakati wa mafuriko na matukio ya hali ya hewa mbaya",
+    "formTitle": "Fanya Mchango",
+    "formDesc": "Michango yote inaenda moja kwa moja kusaidia familia za Turkana zinazohitaji. Malipo salama kupitia Paystack.",
+    "fullName": "Jina Kamili",
+    "fullNamePlaceholder": "Ingiza jina lako kamili",
+    "email": "Barua Pepe",
+    "emailPlaceholder": "barua.pepe@mfano.com",
+    "amount": "Kiasi cha Mchango (KES)",
+    "amountNote": "Mchango wa chini: KES 10",
+    "message": "Ujumbe (Hiari)",
+    "messagePlaceholder": "Ongeza ujumbe wa msaada...",
+    "donateButton": "Changia Sasa",
+    "processing": "Inachakata...",
+    "secureNote": "Malipo salama yanayoendeshwa na Paystack",
+    "successTitle": "Asante kwa mchango wako!",
+    "successDesc": "Mchango wako utasaidia familia za Turkana zinazohitaji.",
+    "errorTitle": "Mchango Umeshindwa",
+    "errorRequired": "Tafadhali jaza sehemu zote zinazohitajika.",
+    "errorMinAmount": "Kiasi cha chini cha mchango ni KES 10."
   }
 }
