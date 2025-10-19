@@ -10,6 +10,7 @@ import { Label } from '@/components/ui/label';
 import { Mail, Phone, MapPin } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import { useTranslation } from 'react-i18next';
+import axios from 'axios';
 
 const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -35,15 +36,13 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch('http://localhost:8000/api/contact/', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
+      const response = await axios.post('http://localhost:8000/api/contact/', formData, {
+        headers:{
+          "Content-Type":"application/json"
         },
-        body: JSON.stringify(formData),
       });
 
-      if (response.ok) {
+      if (response.status === 200 || response.status === 201 ) {
         toast({
           title: t('contact.successTitle'),
           description: t('contact.successDesc'),

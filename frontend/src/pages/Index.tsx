@@ -23,9 +23,10 @@ const Index = () => {
           {/* Video Background - Replace with actual video file */}
           <div className="absolute inset-0 z-0">
             {/* Placeholder - Replace src with your video file path */}
-            {/* <video className="w-full h-full object-cover" autoPlay loop muted playsInline>
-              <source src="/path-to-your-video.mp4" type="video/mp4" />
-            </video> */}
+            {/*<video className="w-full h-full object-cover" autoPlay loop muted playsInline>
+              <source src="https://www.youtube.com/watch?v=P11sIQLz4uM" type="video/mp4" />
+            </video> 
+            */}
             <img 
               src={heroVideoPlaceholder} 
               alt="Children drinking clean water" 
