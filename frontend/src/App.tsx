@@ -6,6 +6,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import WaterSources from "./pages/WaterSources";
 import Contact from "./pages/Contact";
+import Donate from "./pages/Donate";
+import WeatherPredictions from "./pages/WeatherPredictions";
 import NotFound from "./pages/NotFound";
 import './i18n/config';
 
@@ -21,6 +23,8 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/water-sources" element={<WaterSources />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/donate" element={<Donate />} />
+          <Route path="/weather-predictions" element={<WeatherPredictions />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

@@ -2,6 +2,8 @@
   "nav": {
     "home": "Mũciĩ",
     "waterSources": "Ithanwa Cia Maaĩ",
+    "weatherPredictions": "Ũhoro Wa Rĩa",
+    "donate": "Heana",
     "contact": "Tũmanĩrie"
   },
   "hero": {
@@ -94,6 +96,102 @@
     "description": "Ũrĩa rĩa rĩrĩ rĩu kũu Kaunti ya Turkana",
     "temp": "Ũrugarĩ",
     "humidity": "Ũigũ",
-    "windSpeed": "Ihenya Rĩa Rũhuho"
+    "windSpeed": "Ihenya Rĩa Rũhuho",
+    "predictionsTitle": "Ũhoro Wa Rĩa Kũrĩ Turkana",
+    "predictionsSubtitle": "Kũmenya mĩtugo ya mahinda nĩguo twĩhaarĩrie kũma na mũiyũro wa maaĩ",
+    "rainfall": "Mbura",
+    "temperature": "Ũrugarĩ",
+    "rainfallMm": "Mbura (mm)",
+    "tempC": "Ũrugarĩ (°C)",
+    "avgRainfall": "Mbura Ya Wastani",
+    "importantNote": "Ũhoro Wa Bata",
+    "importantNoteDesc": "Kaunti ya Turkana ĩkoragwo na mĩtugo mĩrũ mũno ya rĩa. Kũmenya mĩtugo ĩno nĩkũteithagia andũ kwĩhaarĩria kũma kwa maaĩ mahinda ma kũma na mũiyũro wa maaĩ mahinda ma mbura.",
+    "currentMonth": "Mweri Wa Rĩu",
+    "currentSeasonPrediction": "Ũhoro wa mahinda marĩa marĩ rĩu na ũrĩa marĩ",
+    "season": "Ihinda",
+    "condition": "Ũrĩa Irĩ",
+    "primaryRisk": "Ũgwati Wa Mbere",
+    "expectedRainfall": "Mbura Ĩrĩa Ĩkwĩrĩgĩrĩrwo Mweri Ũyũ",
+    "annualPatterns": "Mĩtugo Ya Rĩa Ya Mwaka",
+    "annualPatternsDesc": "Ũrĩa mbura na ũrugarĩ iheanaga mwaka wothe",
+    "monthlyRainfall": "Kũgayana Kwa Mbura Ya O Mweri",
+    "monthlyRainfallDesc": "Wastani wa mbura wa o mweri ũkĩonania mahinda ma mbura na ma kũma",
+    "months": {
+      "jan": "Mũgaa",
+      "feb": "Njanja",
+      "mar": "Mũgathano",
+      "apr": "Kagwiamba",
+      "may": "Gatuene",
+      "jun": "Gatumwa",
+      "jul": "Mworia",
+      "aug": "Munyarũ",
+      "sep": "Gatumwa",
+      "oct": "Mwere",
+      "nov": "Ndima",
+      "dec": "Gikũyũ"
+    },
+    "seasons": {
+      "longRains": "Ihinda Rĩa Mbura Nene",
+      "shortRains": "Ihinda Rĩa Mbura Nini",
+      "drySeason": "Ihinda Rĩa Kũma"
+    },
+    "conditions": {
+      "wetSeason": "Ihinda rĩa mbura na mbura nyingĩ",
+      "moderateRain": "Mbura ya wastani nĩ ĩkwĩrĩgĩrĩrwo",
+      "littleRain": "Mbura nini mũno kana gũtirĩ"
+    },
+    "risks": {
+      "flooding": "Mũiyũro wa Maaĩ na Maaĩ Maingĩ Mũno",
+      "moderate": "Ũrĩa wa wastani",
+      "drought": "Kũma na Kũma Kwa Maaĩ"
+    },
+    "levels": {
+      "veryLow": "Thĩ Mũno",
+      "low": "Thĩ",
+      "moderate": "Wastani",
+      "high": "Igũrũ"
+    },
+    "legend": {
+      "veryLow": "Thĩ Mũno (<30mm)",
+      "low": "Thĩ (30-60mm)",
+      "moderate": "Wastani (60-90mm)",
+      "high": "Igũrũ (>90mm)"
+    },
+    "impactCards": {
+      "waterShortage": "Kũma Kwa Maaĩ",
+      "waterShortageDesc": "Mahinda ma kũma maraihu marũmagĩrĩrwa nĩ kũma kũnene kwa maaĩ, ikũhĩtia andũ gũthiĩ kũraya mũno nĩguo makinyĩre maaĩ.",
+      "foodInsecurity": "Kũma Kwa Irio",
+      "foodInsecurityDesc": "Ũrĩa wa kũma ũkahutha mbarĩki na irio, ũgatũma kũgĩe na kũma kwa irio na bata wa gũteithio na ihenya.",
+      "floodRisk": "Ũgwati Wa Mũiyũro",
+      "floodRiskDesc": "Mbura nene mahinda ma mbura no itũme kũgĩe na mũiyũro, ũkananga nyũmba na gũthaahia ithanwa cia maaĩ."
+    }
+  },
+  "donate": {
+    "title": "Teithia Andũ a Turkana",
+    "subtitle": "Ũheo waku nĩ ũteithagia kũhe irio, maaĩ, na gũteithio na ihenya kũrĩ mĩciĩ ĩrĩa ĩhuthe nĩ kũma kũu Kaunti ya Turkana.",
+    "waterTitle": "Maaĩ Matheru",
+    "waterDesc": "Kũhe ũhoro wa gũkinyĩra ithanwa cia maaĩ matheru na mĩtugo ya gũtheria maaĩ",
+    "foodTitle": "Gũteithio Kwa Irio",
+    "foodDesc": "Kũhe gũteithio kwa irio na ihenya kũrĩ mĩciĩ ĩrĩa ĩkabĩliĩtwo nĩ kũma kwa irio kũrĩa kũrĩ na kũma",
+    "emergencyTitle": "Gũteithio Na Ihenya",
+    "emergencyDesc": "Kũhe gũteithio na ihenya mahinda ma mũiyũro na matũrĩko ma rĩa marĩa marĩ mũrũ",
+    "formTitle": "Heana",
+    "formDesc": "Ũheo wothe nĩ ũthiiaga o rũrĩrĩ gũteithia mĩciĩ ya Turkana ĩrĩa ĩrĩ na bata. Kũrĩha kũrĩ na thayũ na Paystack.",
+    "fullName": "Rĩĩtwa Rĩothe",
+    "fullNamePlaceholder": "Inyũkia rĩĩtwa rĩaku rĩothe",
+    "email": "Barua Ya Elektironiki",
+    "emailPlaceholder": "barua.yaku@mfano.com",
+    "amount": "Ũheo (KES)",
+    "amountNote": "Ũheo wa thĩ: KES 10",
+    "message": "Ũhoro (Hiari)",
+    "messagePlaceholder": "Ongera ũhoro wa gũteithia...",
+    "donateButton": "Heana Rĩu",
+    "processing": "Nĩrachakata...",
+    "secureNote": "Kũrĩha kũrĩ na thayũ kũrĩa kũrutaga wĩra na Paystack",
+    "successTitle": "Tũgũthokeria ũheo waku!",
+    "successDesc": "Ũheo waku nĩũgateithia mĩciĩ ya Turkana ĩrĩa ĩrĩ na bata.",
+    "errorTitle": "Ũheo Nĩũkũremwo",
+    "errorRequired": "Tafadhali iyũria tũndũ twagĩrĩirwo.",
+    "errorMinAmount": "Ũheo wa thĩ nĩ KES 10."
   }
 }
