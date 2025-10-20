@@ -76,6 +76,7 @@
   "waterSources": {
     "title": "Water Sources in Turkana",
     "subtitle": "Find clean water sources near you",
+    
     "mapTitle": "Interactive Map",
     "listTitle": "Water Source List",
     "type": "Type",

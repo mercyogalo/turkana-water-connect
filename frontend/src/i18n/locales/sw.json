@@ -70,8 +70,8 @@
     "sending": "Inatuma...",
     "successTitle": "Ujumbe umetumwa!",
     "successDesc": "Tutawasiliana nawe haraka iwezekanavyo.",
-    "errorTitle": "Hitilafu",
-    "errorDesc": "Imeshindwa kutuma ujumbe. Tafadhali jaribu tena."
+  "errorTitle": "Hitilafu",
+  "errorDesc": "Imeshindwa kutuma ujumbe. Tafadhali jaribu tena."
   },
   "waterSources": {
     "title": "Vyanzo vya Maji katika Turkana",
@@ -83,7 +83,7 @@
     "condition": "Hali",
     "capacity": "Uwezo",
     "lastUpdated": "Imesasishwa Mwisho",
-    "getDirections": "Pata Mwelekeo"
+  "getDirections": "Pata Mwelekeo"
   },
   "footer": {
     "description": "Kutengeneza ramani na kushiriki maeneo ya vyanzo vya maji katika Kaunti ya Turkana ili kuboresha ufikiaji wa jamii kwa maji safi.",

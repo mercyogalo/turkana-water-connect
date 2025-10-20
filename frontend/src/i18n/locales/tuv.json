@@ -70,8 +70,8 @@
     "sending": "Kiperis...",
     "successTitle": "Kibarbar kiperes!",
     "successDesc": "Tolosi kang ka akiro ngesi kibuchikini.",
-    "errorTitle": "Ekoto",
-    "errorDesc": "Mam kibucha kiperis kibarbar. Tukitae kidi."
+  "errorTitle": "Ekoto",
+  "errorDesc": "Mam kibucha kiperis kibarbar. Tukitae kidi."
   },
   "waterSources": {
     "title": "Ngikibot Ka Akipi Kere Turkana",
@@ -83,7 +83,7 @@
     "condition": "Ngakinei",
     "capacity": "Ngakwapoi",
     "lastUpdated": "Iyenete Ka Ngolo",
-    "getDirections": "Losia Akiro"
+  "getDirections": "Losia Akiro"
   },
   "footer": {
     "description": "Akiles ka map bo ikibarbar ngikibot ka akipi kere Turkana County amu alongakinei alosit ngitunga ka akipi ka alongakinei.",
@@ -165,33 +165,5 @@
       "floodRisk": "Flood Risk",
       "floodRiskDesc": "Heavy rains during wet seasons can cause flooding, damaging infrastructure and contaminating water sources."
     }
-  },
-  "donate": {
-    "title": "Support Turkana Communities",
-    "subtitle": "Your donation helps provide food, water, and emergency aid to drought-affected families in Turkana County.",
-    "waterTitle": "Clean Water",
-    "waterDesc": "Provide access to clean water sources and water purification systems",
-    "foodTitle": "Food Support",
-    "foodDesc": "Supply emergency food aid to families facing drought-related food insecurity",
-    "emergencyTitle": "Emergency Aid",
-    "emergencyDesc": "Deliver urgent assistance during floods and extreme weather events",
-    "formTitle": "Make a Donation",
-    "formDesc": "All donations go directly to support Turkana families in need. Secure payment via Paystack.",
-    "fullName": "Full Name",
-    "fullNamePlaceholder": "Enter your full name",
-    "email": "Email Address",
-    "emailPlaceholder": "your.email@example.com",
-    "amount": "Donation Amount (KES)",
-    "amountNote": "Minimum donation: KES 10",
-    "message": "Message (Optional)",
-    "messagePlaceholder": "Add a message of support...",
-    "donateButton": "Donate Now",
-    "processing": "Processing...",
-    "secureNote": "Secure payment powered by Paystack",
-    "successTitle": "Thank you for your donation!",
-    "successDesc": "Your contribution will help Turkana families in need.",
-    "errorTitle": "Donation Failed",
-    "errorRequired": "Please fill in all required fields.",
-    "errorMinAmount": "Minimum donation amount is KES 10."
   }
 }

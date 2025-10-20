@@ -19,6 +19,8 @@ import { Cloud, CloudRain, Droplets, AlertTriangle, TrendingDown, Sun } from 'lu
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { Badge } from '@/components/ui/badge';
 
+type BadgeVariant = 'default' | 'secondary' | 'destructive' | 'outline' | 'success' | 'warning';
+
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -238,7 +240,7 @@ const WeatherPredictions = () => {
                     </div>
                     <div>
                       <p className="text-sm text-gray-600 mb-1">{t('weather.primaryRisk')}</p>
-                      <Badge variant={rainfallLevel.color as any} className="text-base px-3 py-1">
+                      <Badge variant={rainfallLevel.color as BadgeVariant} className="text-base px-3 py-1">
                         {seasonInfo.risk}
                       </Badge>
                     </div>
@@ -252,7 +254,7 @@ const WeatherPredictions = () => {
                     <div className="flex items-baseline gap-2">
                       <span className="text-3xl font-bold text-blue-600">{currentRainfall}</span>
                       <span className="text-gray-600">mm</span>
-                      <Badge variant={rainfallLevel.color as any} className="ml-4">
+                      <Badge variant={rainfallLevel.color as BadgeVariant} className="ml-4">
                         {rainfallLevel.level}
                       </Badge>
                     </div>

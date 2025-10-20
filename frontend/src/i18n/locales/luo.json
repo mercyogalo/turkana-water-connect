@@ -70,8 +70,8 @@
     "sending": "Oro...",
     "successTitle": "Ote oseor!",
     "successDesc": "Wabiro dwoki piyo ka inyalo.",
-    "errorTitle": "Rach",
-    "errorDesc": "Ok onyal oro ote. Tem kendo."
+  "errorTitle": "Rach",
+  "errorDesc": "Ok onyal oro ote. Tem kendo."
   },
   "waterSources": {
     "title": "Sokni Pi e Turkana",
@@ -83,7 +83,7 @@
     "condition": "Kaka Entie",
     "capacity": "Kwan Monyalo Mako",
     "lastUpdated": "Noloki Mogik",
-    "getDirections": "Yud Yo"
+  "getDirections": "Yud Yo"
   },
   "footer": {
     "description": "Loso map kod pogo kama sokni pi nitiere e Kaunti mar Turkana mondo jok oyud pi maler maber.",

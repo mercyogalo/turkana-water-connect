@@ -70,8 +70,8 @@
     "sending": "Nĩratũmaga...",
     "successTitle": "Ũhoro nĩũtũmĩtwo!",
     "successDesc": "Tũgũcooka gũtĩĩgo o rĩrĩa tũngĩhota.",
-    "errorTitle": "Mahĩtia",
-    "errorDesc": "Ndũngĩhotire gũtũma ũhoro. Tafadhali geria rĩngĩ."
+  "errorTitle": "Mahĩtia",
+  "errorDesc": "Ndũngĩhotire gũtũma ũhoro. Tafadhali geria rĩngĩ."
   },
   "waterSources": {
     "title": "Ithanwa Cia Maaĩ Kũu Turkana",
@@ -83,7 +83,7 @@
     "condition": "Ũrĩa Irĩ",
     "capacity": "Ũingĩ",
     "lastUpdated": "Rĩa Kũrigĩrĩria Rĩa Kũhĩrĩria",
-    "getDirections": "Ona Mwĩrũ"
+  "getDirections": "Ona Mwĩrũ"
   },
   "footer": {
     "description": "Gwĩkĩra mapi na kũgayana ũhoro wa harĩa ithanwa cia maaĩ irĩ kũu Kaunti ya Turkana nĩguo andũ makinyĩre maaĩ matheru wega.",
@@ -165,33 +165,6 @@
       "floodRisk": "Ũgwati Wa Mũiyũro",
       "floodRiskDesc": "Mbura nene mahinda ma mbura no itũme kũgĩe na mũiyũro, ũkananga nyũmba na gũthaahia ithanwa cia maaĩ."
     }
-  },
-  "donate": {
-    "title": "Teithia Andũ a Turkana",
-    "subtitle": "Ũheo waku nĩ ũteithagia kũhe irio, maaĩ, na gũteithio na ihenya kũrĩ mĩciĩ ĩrĩa ĩhuthe nĩ kũma kũu Kaunti ya Turkana.",
-    "waterTitle": "Maaĩ Matheru",
-    "waterDesc": "Kũhe ũhoro wa gũkinyĩra ithanwa cia maaĩ matheru na mĩtugo ya gũtheria maaĩ",
-    "foodTitle": "Gũteithio Kwa Irio",
-    "foodDesc": "Kũhe gũteithio kwa irio na ihenya kũrĩ mĩciĩ ĩrĩa ĩkabĩliĩtwo nĩ kũma kwa irio kũrĩa kũrĩ na kũma",
-    "emergencyTitle": "Gũteithio Na Ihenya",
-    "emergencyDesc": "Kũhe gũteithio na ihenya mahinda ma mũiyũro na matũrĩko ma rĩa marĩa marĩ mũrũ",
-    "formTitle": "Heana",
-    "formDesc": "Ũheo wothe nĩ ũthiiaga o rũrĩrĩ gũteithia mĩciĩ ya Turkana ĩrĩa ĩrĩ na bata. Kũrĩha kũrĩ na thayũ na Paystack.",
-    "fullName": "Rĩĩtwa Rĩothe",
-    "fullNamePlaceholder": "Inyũkia rĩĩtwa rĩaku rĩothe",
-    "email": "Barua Ya Elektironiki",
-    "emailPlaceholder": "barua.yaku@mfano.com",
-    "amount": "Ũheo (KES)",
-    "amountNote": "Ũheo wa thĩ: KES 10",
-    "message": "Ũhoro (Hiari)",
-    "messagePlaceholder": "Ongera ũhoro wa gũteithia...",
-    "donateButton": "Heana Rĩu",
-    "processing": "Nĩrachakata...",
-    "secureNote": "Kũrĩha kũrĩ na thayũ kũrĩa kũrutaga wĩra na Paystack",
-    "successTitle": "Tũgũthokeria ũheo waku!",
-    "successDesc": "Ũheo waku nĩũgateithia mĩciĩ ya Turkana ĩrĩa ĩrĩ na bata.",
-    "errorTitle": "Ũheo Nĩũkũremwo",
-    "errorRequired": "Tafadhali iyũria tũndũ twagĩrĩirwo.",
-    "errorMinAmount": "Ũheo wa thĩ nĩ KES 10."
   }
+ 
 }
