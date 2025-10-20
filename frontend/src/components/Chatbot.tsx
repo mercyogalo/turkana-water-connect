@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { MessageCircle, X, Send } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
+import axios from 'axios';
 
 const Chatbot = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,20 +11,40 @@ const Chatbot = () => {
   ]);
   const [inputValue, setInputValue] = useState('');
 
-  const handleSend = () => {
-    if (!inputValue.trim()) return;
+ const handleSend = async () => {
+  if (!inputValue.trim()) return;
 
-    setMessages([...messages, { text: inputValue, isBot: false }]);
-    setInputValue('');
+  // Add the user's message to the chat immediately
+  setMessages([...messages, { text: inputValue, isBot: false }]);
+  const userMessage = inputValue;
+  setInputValue('');
 
-    // Simulate bot response
-    setTimeout(() => {
-      setMessages(prev => [...prev, {
-        text: 'Thank you for your question. Our team will help you find the nearest water source. Please check the Water Sources page for detailed locations.',
-        isBot: true
-      }]);
-    }, 1000);
-  };
+  try {
+   
+    const response = await axios.post('http://localhost:8000/chatbot/analyze/',{ message: userMessage },
+       {
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      }
+    );
+
+    console.log(response.data);
+
+   
+    const botReply = response.data.bot_response || "Sorry, I couldn’t get a response.";
+
+   
+    setMessages((prev) => [...prev, { text: botReply, isBot: true }]);
+  } catch (error) {
+    console.error('Error sending message:', error);
+    setMessages((prev) => [
+      ...prev,
+      { text: "Sorry, I couldn't reach the server. Please try again.", isBot: true },
+    ]);
+  }
+};
+
 
   const handleKeyPress = (e: React.KeyboardEvent) => {
     if (e.key === 'Enter') {
