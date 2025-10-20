@@ -16,7 +16,6 @@ const Navigation = () => {
     { path: '/', label: t('nav.home') },
     { path: '/water-sources', label: t('nav.waterSources') },
     { path: '/weather-predictions', label: t('nav.weatherPredictions') },
-    { path: '/donate', label: t('nav.donate') },
     { path: '/contact', label: t('nav.contact') },
   ];
 
