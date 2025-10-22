@@ -46,9 +46,46 @@ INSTALLED_APPS = [
     "rest_framework",
     "corsheaders",
     "climate",
+    "prediction",
     "chat"
 ]
 
+
+REST_FRAMEWORK = {
+    'DEFAULT_RENDERER_CLASSES': [
+        'rest_framework.renderers.JSONRenderer',
+        'rest_framework.renderers.BrowsableAPIRenderer',
+    ],
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 100
+}
+
+
+TURKANA_LATITUDE = 3.1167
+TURKANA_LONGITUDE = 35.5989
+
+NASA_POWER_API_URL = "https://power.larc.nasa.gov/api/temporal/daily/point"
+NASA_POWER_PARAMETERS = [
+    "PRECTOTCORR",  # Precipitation
+    "T2M",  # Temperature at 2m
+    "T2M_MAX",  # Maximum Temperature
+    "T2M_MIN",  # Minimum Temperature
+    "RH2M",  # Relative Humidity
+    "WS2M",  # Wind Speed at 2m
+]
+
+# Weather prediction thresholds for Turkana
+DROUGHT_THRESHOLDS = {
+    'severe_drought': 50,  # mm/month
+    'moderate_drought': 100,  # mm/month
+    'mild_drought': 150,  # mm/month
+}
+
+FLOOD_THRESHOLDS = {
+    'extreme_flood': 300,  # mm/month
+    'severe_flood': 200,  # mm/month
+    'moderate_flood': 150,  # mm/month
+}
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
