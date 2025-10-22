@@ -252,9 +252,6 @@ print(response.json())
 - **Location**: Turkana County, Kenya (3.1167°N, 35.5989°E)
 - **Parameters**: Precipitation, Temperature, Humidity, Wind Speed
 
-## License
-This project uses publicly available NASA POWER data for weather prediction.
-
 ## Support
 For issues or questions, check the Django logs:
 ```bash
